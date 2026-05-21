@@ -3,11 +3,13 @@ import { prisma } from '@/lib/prisma';
 
 export type TestUser = { id: string; email: string; name: string };
 
+/**
+ * Clean only test-scoped data so running `pnpm test` doesn't wipe the
+ * seeded `@demo.test` users a reviewer needs to log in. Cascades from
+ * User clean up their Documents and Shares.
+ */
 export async function resetDb() {
-  // Order matters: shares depend on documents and users.
-  await prisma.share.deleteMany();
-  await prisma.document.deleteMany();
-  await prisma.user.deleteMany();
+  await prisma.user.deleteMany({ where: { email: { endsWith: '@test.local' } } });
 }
 
 export async function seedUsers(): Promise<{ alice: TestUser; bob: TestUser; carol: TestUser }> {
