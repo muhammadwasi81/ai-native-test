@@ -23,7 +23,9 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "tests/**/*.ts",
+    "prisma/**/*.ts",
     ".next/types/**/*.ts"
   ],
+  "ts-node": { "compilerOptions": { "module": "CommonJS" } },
   "exclude": ["node_modules"]
 }
