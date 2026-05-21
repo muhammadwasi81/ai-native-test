@@ -13,3 +13,5 @@ coverage
 /prisma/test.db-journal
 .vercel
 next-env.d.ts
+tsconfig.tsbuildinfo
+*.tsbuildinfo
