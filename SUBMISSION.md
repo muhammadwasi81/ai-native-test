@@ -5,11 +5,11 @@
 
 ## Live links
 
-| Item                  | URL                                          |
-| --------------------- | -------------------------------------------- |
-| Live deployed app     | _filled in after deploy_                     |
-| Walkthrough video     | _filled in after recording (Loom, unlisted)_ |
-| Source repository     | _filled in after push (GitHub, public)_      |
+| Item                  | URL                                                          |
+| --------------------- | ------------------------------------------------------------ |
+| Live deployed app     | https://ai-native-test.vercel.app                            |
+| Walkthrough video     | _filled in after recording — paste your Loom / YouTube link_ |
+| Source repository     | https://github.com/muhammadwasi81/ai-native-test             |
 
 ## Demo credentials
 

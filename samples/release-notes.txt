@@ -1,0 +1,26 @@
+Release notes — Ajaia Docs v0.1
+
+What's new in this release:
+
+We're shipping the first cut of the editor today. It's intentionally small so
+we can iterate based on actual usage rather than guesses.
+
+Highlights:
+
+Rich-text editing with bold, italic, underline, headings, and lists.
+
+File import from .txt, .md, and .docx — drop a file and start editing.
+
+Per-document sharing with another team member by email. The owner can revoke
+access at any time.
+
+Autosave runs in the background with a visible status indicator so you always
+know whether your changes have made it to the server.
+
+What's coming next:
+
+Real-time collaborative cursors. Viewer vs editor roles. Markdown export. A
+proper search across all your documents.
+
+We'd love feedback. Drop us a note at hello@ajaia.example and tell us what's
+broken or what's missing.

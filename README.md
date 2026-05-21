@@ -4,7 +4,8 @@ A small full-stack take-home built for the Ajaia LLC AI-Native Full Stack
 Developer assignment. Documents you can create, edit (rich text), upload from
 `.txt` / `.md` / `.docx`, and share with another user.
 
-**Live URL:** _filled in after deploy — see [SUBMISSION.md](./SUBMISSION.md)._
+**Live URL:** **https://ai-native-test.vercel.app**
+**Source:** **https://github.com/muhammadwasi81/ai-native-test**
 
 ## Stack at a glance
 
